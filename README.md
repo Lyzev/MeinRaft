@@ -22,8 +22,9 @@
 
 ## Disclaimer
 
-This project is not affiliated with or endorsed by Raft, Redbeet Interactive, Axolot Games, or any of their affiliates. The use of 
-this software is at your own risk. The developers of this project are not responsible for any damages or losses caused 
+This project is not affiliated with or endorsed by Raft, Redbeet Interactive, Axolot Games, or any of their affiliates.
+The use of
+this software is at your own risk. The developers of this project are not responsible for any damages or losses caused
 by the use of this software. This project is intended for educational purposes only.
 
 ## Getting Started
@@ -36,9 +37,14 @@ by the use of this software. This project is intended for educational purposes o
 
 ### Installation
 
-1. Download the latest release of SchummelPartie from the [releases page](https://github.com/Lyzev/MeinRaft/releases).
+1. Download the latest release of Mein Raft from the [releases page](https://github.com/Lyzev/MeinRaft/releases).
 2. Put the downloaded `MeinRaft.dll` file into the `Mods` folder of your Pummel Party installation.
 3. Run the game and enjoy the mod!
+
+### Common Issues
+
+If you encounter an error in the console that tells something about `Newtonsoft.Json`, you need to copy
+the `/MelonLoader\Managed\Newtonsoft.Json.dll` file to the`/UserLibs/` folder of your Raft installation.
 
 ### Contributing
 
@@ -53,7 +59,6 @@ Thank you for considering contributing to this Raft hacked client! Your contribu
 **NOTE:**  
 *The project is built with .NET 4.8. You will need to have it installed to build the project.  
 Don't forget to install the prerequisites mentioned in the "Prerequisites" section.*
-
 
 ## Bugs and Suggestions
 
